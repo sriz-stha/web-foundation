@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: #222;
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+.clearfix {
+	clear: both;
+}
+.banner{
+	height: 500px;
+	background: #ffdd00;
+	width: 100%;
+	position: absolute;
+	top:0;
+	z-index: 2;
+}
+.wrapper{
+	position: relative;
+	z-index: 1;
+}
+.nav-bar{
+	position: relative;
+	z-index: 3;
+	background: rgba(0, 0, 0, 0.5);
+}
+.top-bar {
+	width: 100%;
+	padding: 15px 0;
+}
+.top-bar a, .top-bar {
+	color: #fff;
+}
+.container{
+	width: 1180px;
+	margin: 0 auto;
+}
+.left, .right {
+	width: 50%;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.inline-block {
+	display: inline-block;
+	vertical-align: top;
+}
+.no {
+	margin-right: 20px;
+}
+.top-bar i.fa {
+	margin-right: 5px;
+}
